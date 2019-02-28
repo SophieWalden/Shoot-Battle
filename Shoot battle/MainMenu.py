@@ -41,7 +41,7 @@ def mainMenu():
         pos = pygame.mouse.get_pos()
         
         text_surface, rect = font_150.render(("Shoot Battle"), (0, 0, 0))
-        gameDisplay.blit(text_surface, (300, 100))
+        gameDisplay.blit(text_surface, (320, 100))
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
